@@ -1,0 +1,30 @@
+:root {
+  --primary-blue: #1261ff;
+  --secondary-blue: #66a3f2;
+  --light-gray: #f2f2f2;
+  --dark: #0d0d0d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
